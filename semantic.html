@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Semantic</title>
+  <meta charset="UTF-8">
+  <title>Semantic Layout</title>
+  <style>
+    header, nav, main, section, article, aside, footer {
+      border: 2px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+    aside {
+      width: 200px;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1>My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Latest Posts</h2>
+
+      <article>
+        <h3>Learning HTML</h3>
+        <p>Semantic tags describe the meaning of the content, not just how it looks.</p>
+      </article>
+    </section>
+
+    <aside>
+      <h3>Related Links</h3>
+      <p>Extra info that is not part of the main article.</p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

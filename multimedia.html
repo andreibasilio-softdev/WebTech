@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Multimedia</title>
+  <meta charset="UTF-8">
+  <title>My first multimedia page.</title>
 </head>
 <body>
-    
+
+  <h2>Image</h2>
+  <img src="images/images.jpg" alt="A description of the photo" width="300">
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="videos/JavaRec1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Video</h2>
+  <video controls width="400">
+    <source src="videos/JavaVid1.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+
+  <h2>Embedded Content</h2>
+  <iframe src="videos/JavaVid1.mp4"
+          width="500" height="300"
+          title="Embedded map">
+  </iframe>
+
 </body>
 </html>

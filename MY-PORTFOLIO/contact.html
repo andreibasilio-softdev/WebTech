@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | My Personal Web Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>My Personal Web Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a> |
+    <a href="about.html">ABOUT</a> |
+    <a href="education.html">EDUCATION</a> |
+    <a href="skills.html">SKILLS</a> |
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <main>
+  <section>
+    <h2>Contact Me</h2>
+
+    <article>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required minlength="2" maxlength="50">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here" required maxlength="300"></textarea>
+        <br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+    </article>
+
+    <article>
+      <h3>Find Me Here</h3>
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=120.95%2C14.55%2C121.05%2C14.62&layer=mapnik"
+              width="500" height="300" title="Map of my location"></iframe>
+    </article>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
